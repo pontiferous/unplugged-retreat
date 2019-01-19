@@ -144,15 +144,21 @@ aside{
 }
 
 .features{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .features-item{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .features-item-description{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .reviews{
@@ -174,17 +180,8 @@ aside{
 }
 
 .social-icons{
-  
+
 }
-
-
-
-
-
-
-
-
-
 
 
 /* ==========================================================================
