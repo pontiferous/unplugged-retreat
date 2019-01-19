@@ -96,12 +96,86 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*------------------ Base Header - Footer Styles ----------------*/
 
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+h1, h2, h3, h4{
 
+}
 
+.content-wrapper{
 
+}
 
+.header-divider{
+
+}
+
+/*------------------------ Main --------------------------------*/
+
+main{
+
+}
+
+p{
+
+}
+
+.hero-area{
+
+}
+
+aside{
+
+}
+
+.form-description{
+
+}
+
+.form{
+
+}
+
+.features{
+
+}
+
+.features-item{
+
+}
+
+.features-item-description{
+
+}
+
+.reviews{
+
+}
+
+.review-photo{
+
+}
+
+/*------------------------ Main --------------------------------*/
+
+.contact{
+
+}
+
+.social{
+
+}
+
+.social-icons{
+  
+}
 
 
 
