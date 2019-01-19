@@ -139,23 +139,21 @@ aside{
 
 }
 
-.form{
+.form{ /* all centered */
 
 }
 
 .features{
+
+}
+
+.features-item{ /* all centered */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.features-item{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.features-item-description{
+.features-item-description{ /* all centered */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -165,8 +163,10 @@ aside{
 
 }
 
-.review-photo{
-
+.review-photo{ /* all centered */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*------------------------ Main --------------------------------*/
