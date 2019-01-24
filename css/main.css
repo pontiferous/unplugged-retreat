@@ -120,7 +120,7 @@ header .content-wrapper{
 
 header nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
@@ -146,12 +146,11 @@ footer .social-icons p{
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
-.footer .social {
+.footer .social{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -159,12 +158,20 @@ footer .content-wrapper{
   width: 55%;
   margin: 50px 0;
 }
+
+footer .footer-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*------------------------ Main Homepage --------------------------------*/
 
 .hero-area{
   display: flex;
   justify-content: flex-start;
   flex-flow: row wrap;
+  padding: 10px;
 }
 
 aside{
@@ -172,22 +179,25 @@ aside{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 10px;
 }
 
 .features{
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  padding: 10px; /*padding all around each element?*/
 }
 
-.features .features-item{ /* all centered */
+.features .features-item{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 10px;
 }
 
-.features article {
+.features article{
   width: 60%;
 }
 
@@ -195,10 +205,12 @@ aside{
   display: flex;
   justify-content: flex-start;
   flex-flow: row wrap;
+  padding: 10px;
 }
 
 .reviews h3{
   width: 70%;
+  padding: 10px;
 }
 
 /*------------------------ Footer --------------------------------*/
