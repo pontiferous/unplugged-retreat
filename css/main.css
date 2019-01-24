@@ -115,6 +115,7 @@ header .content-wrapper{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav {
@@ -128,7 +129,11 @@ header nav {
 header nav ul{
   display: flex;
   justify-content: space-around;
+  width: 60%;
+}
 
+header .header-divider{
+  width: 50%;
 }
 
 footer .social-icons{
@@ -182,10 +187,18 @@ aside{
   flex-flow: row wrap;
 }
 
+.features article {
+  width: 60%;
+}
+
 .reviews{
   display: flex;
   justify-content: flex-start;
   flex-flow: row wrap;
+}
+
+.reviews h3{
+  width: 70%;
 }
 
 /*------------------------ Footer --------------------------------*/
