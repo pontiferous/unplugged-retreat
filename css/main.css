@@ -116,6 +116,7 @@ header .content-wrapper{
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
+  margin: 0;
 }
 
 header nav {
@@ -164,7 +165,9 @@ footer .footer-content{
   justify-content: center;
   align-items: center;
 }
-
+footer p{
+  margin: 0;
+}
 /*------------------------ Main Homepage --------------------------------*/
 
 .hero-area{
@@ -187,6 +190,7 @@ aside{
   justify-content: center;
   flex-flow: row wrap;
   padding: 10px; /*padding all around each element?*/
+  margin: 0;
 }
 
 .features .features-item{
