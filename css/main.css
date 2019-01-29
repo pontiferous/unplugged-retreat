@@ -96,7 +96,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/*------------------ Base Header - Footer Styles ----------------*/
 
 header,
 footer {
@@ -106,8 +105,8 @@ footer {
   flex-flow: row wrap;
 }
 
-h1, h2, h3, h4{
-
+header {
+  padding: 15px 0;
 }
 
 header .content-wrapper{
@@ -115,7 +114,6 @@ header .content-wrapper{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width: 60%;
   margin: 0;
 }
 
@@ -127,16 +125,25 @@ header nav {
   width: 60%;
 }
 
+.header-divider {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
+}
+
 header nav ul{
   display: flex;
   justify-content: space-around;
-  width: 60%;
+  width: 100%;
 }
 
 header .header-divider{
   width: 50%;
 }
 
+footer {
+  flex-direction: column;
+}
 footer .social-icons{
   display: flex;
   justify-content: space-around;
@@ -151,7 +158,7 @@ footer .social-icons p{
 
 .footer .social{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -168,13 +175,18 @@ footer .footer-content{
 footer p{
   margin: 0;
 }
-/*------------------------ Main Homepage --------------------------------*/
 
+footer .copyright {
+  margin: 20px 0;
+}
+
+/* ==========================================================================
+   Main landing Page
+   ========================================================================== */
 .hero-area{
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-flow: row wrap;
-  padding: 10px;
 }
 
 aside{
@@ -182,15 +194,14 @@ aside{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  padding: 10px;
 }
+
+/*features*/
 
 .features{
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  padding: 10px; /*padding all around each element?*/
-  margin: 0;
 }
 
 .features .features-item{
@@ -198,27 +209,86 @@ aside{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  padding: 10px;
+}
+
+.features h2{
+  margin-bottom: 60px;
 }
 
 .features article{
-  width: 60%;
+  width: 55%;
+  margin: 30px 0;
 }
+.features p{
+  margin: 0;
+}
+
+/*reviews*/
 
 .reviews{
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-flow: row wrap;
-  padding: 10px;
+}
+
+.reviews h2{
+  margin-bottom: 40px;
 }
 
 .reviews h3{
-  width: 70%;
-  padding: 10px;
+  width: 55%;
+  margin: 20px 0;
 }
 
-/*------------------------ Footer --------------------------------*/
 
+/* ==========================================================================
+   About Page
+   ========================================================================== */
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.contact-content p {
+  margin: 0;
+}
+
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq .content-wrapper {
+  margin: 50px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq h2 {
+  margin-bottom: 40px;
+}
+
+.faq-content {
+  margin-bottom: 50px;
+}
 
 /* ==========================================================================
    Helper classes
