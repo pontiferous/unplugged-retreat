@@ -378,8 +378,10 @@ aside{
 
    @media screen and (min-width: 768px) {
 
-   /* header change, nav bar change, grid change*/
-
+     header {
+       display: flex;
+       justify-content: center;
+     }
    }
 
    @media screen and (min-width: 1200px) {
