@@ -134,6 +134,7 @@ header nav {
 header nav ul{
   display: flex;
   justify-content: space-around;
+  list-style-type: none;
   width: 100%;
 }
 
@@ -382,15 +383,15 @@ aside{
        display: flex;
        justify-content: center;
        align-items: center;
-       flex-flow: nowrap;
      }
 
-     aside {
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       flex-flow: nowrap;
-     }
+     .content-wrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+
+    .
    }
 
    @media screen and (min-width: 1200px) {
