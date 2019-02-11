@@ -380,6 +380,10 @@ aside{
   /** TABLET STYLES **/
 
    @media screen and (min-width: 768px) {
+
+/* ==========================================================================
+Home Page
+========================================================================== */
      header{
        display: flex;
        justify-content: flex-start;
@@ -459,6 +463,43 @@ aside{
     }
 
    }
+   /* ==========================================================================
+   About Page
+   ========================================================================== */
+
+   .mission-content {
+        display:
+        justify-content: space-between;
+        align-items:
+    }
+
+    .mission-content p {
+        width:
+    }
+
+    .contact-section, .content-wrapper h2 {
+        width:
+    }
+
+    .contact-content {
+        display:
+        justify-content:
+        align-items:
+}
+   /* ==========================================================================
+      FAQ Page
+      ========================================================================== */
+       .faq .content-wrapper {
+           justify-content: space-between;
+       }
+
+       .faq-content {
+           flex-basis: 40%;
+       }
+
+       .faq h2 {
+           width: 100%;
+       }
 
    @media screen and (min-width: 1200px) {
 
