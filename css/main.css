@@ -377,21 +377,51 @@ aside{
    Modify as content requires.
    ========================================================================== */
 
-   @media screen and (min-width: 768px) {
+  /** TABLET STYLES **/
 
-     header, nav {
+   @media screen and (min-width: 768px) {
+     header{
        display: flex;
        justify-content: center;
-       align-items: center;
      }
 
-     .content-wrapper{
+     header, .content-wrapper{
       display: flex;
       flex-direction: row;
       justify-content: flex-start;
     }
 
-    .
+    header, nav, ul{
+      display: flex;
+      justify-content: center;
+    }
+
+    aside .content-wrapper{
+      display: flex;
+      justify-content: center;
+      flex-flow: wrap;
+    }
+
+    .features{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+      flex-basis: 30;
+    }
+
+    article {
+      display: flex;
+      justify-content: center;
+      flex-basis: 30;
+    }
+
+    .footer-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
    }
 
    @media screen and (min-width: 1200px) {
