@@ -404,7 +404,7 @@ aside{
     }
 
     header nav ul{
-      justify-content: space-space-between;
+      justify-content: space-between;
     }
 
     .header-divider {
@@ -435,7 +435,6 @@ aside{
     .features .features-item-description {
       width: 50%;
     }
-
 
     .reviews article {
       display: flex;
