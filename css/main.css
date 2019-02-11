@@ -382,24 +382,48 @@ aside{
    @media screen and (min-width: 768px) {
      header{
        display: flex;
-       justify-content: center;
+       justify-content: flex-start;
      }
 
      header, .content-wrapper{
       display: flex;
       flex-direction: row;
       justify-content: flex-start;
+      width: auto;
     }
 
-    header, nav, ul{
+    header nav {
+      width: auto;
+    }
+
+    header nav ul{
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
+    }
+
+    header-divider {
+      display: none;
     }
 
     aside .content-wrapper{
       display: flex;
       justify-content: center;
       flex-flow: wrap;
+      margin: 50px 0;
+    }
+
+    aside .content-wrapper .form-description,
+    aside .content-wrapper .form {
+    width:
+    margin: 0;
+    }
+
+    .features article {
+
+    }
+
+    .features . features-item-description{
+
     }
 
     .features{
@@ -407,19 +431,31 @@ aside{
       justify-content: center;
       align-items: center;
       flex-flow: row wrap;
-      flex-basis: 30;
+      flex-basis: 30%;
     }
 
-    article {
+    .reviews article {
       display: flex;
       justify-content: center;
-      flex-basis: 30;
+      flex-basis: 30%;
+    }
+
+    .reviews article div{
+      width: auto;
     }
 
     .footer-content {
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+
+    footer .contact{
+      margin-bottom: 0;
+    }
+
+    footer .copyright{
+      width: auto;
     }
 
    }
