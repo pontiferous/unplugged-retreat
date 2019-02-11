@@ -468,23 +468,23 @@ Home Page
    ========================================================================== */
 
    .mission-content {
-        display:
+        display: flex;
         justify-content: space-between;
-        align-items:
+        align-items: center;
     }
 
     .mission-content p {
-        width:
+        width: auto;
     }
 
     .contact-section, .content-wrapper h2 {
-        width:
+        width: auto;
     }
 
     .contact-content {
-        display:
-        justify-content:
-        align-items:
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
    /* ==========================================================================
       FAQ Page
