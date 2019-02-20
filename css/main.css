@@ -506,31 +506,31 @@ aside{
 
             /* Hero */
            .hero-area h1 {
-               width:
+               width: 100%;
            }
 
            /* Aside */
            aside .content-wrapper {
-               justify-content:
+               justify-content: center;
            }
 
            aside .content-wrapper .form-description,
            aside .content-wrapper .form {
-               width:
+               width: 50%;
            }
 
            /* Features */
            .features h2 {
-               width:
+               width: 90%;
            }
 
            .features article {
-               flex-basis:
+               flex-basis: ;
            }
 
            /* Reviews */
            .reviews article div {
-               width:
+               width: 90%;
            }
 
        /* ==========================================================================
@@ -538,11 +538,11 @@ aside{
           ========================================================================== */
            .mission h2,
            .contact-section .content-wrapper h2 {
-               width:
+               width: auto;
            }
 
            .contact-section .content-wrapper h2 {
-               margin-bottom:
+               margin-bottom: 40px;
            }
 
 
@@ -554,7 +554,7 @@ aside{
            }
 
            .faq-content {
-               flex-basis:
+               flex-basis: ;
            }
 
        }
